@@ -1,0 +1,19 @@
+<div class="background-video-container">
+  <div class="background-video">
+    <%= video_tag('4473016-uhd_3840_2160_25fps.mp4', id: 'video1', autoplay: true, loop: false, muted: true, class: 'background-video') %>
+  </div>
+  <div class="background-video">
+    <%= video_tag('207994_small.mp4', id: 'video2', autoplay: false, loop: false, muted: true, class: 'background-video') %>
+  </div>
+</div>
+
+<header>
+  <div class="header-content">
+    <div class="header-logo">
+      Bread Cafe Bot
+    </div>
+    <%= image_tag('131459.png', class: 'logo-image') %>
+  </div>
+</header>
+
+<%= javascript_importmap_tags %>
