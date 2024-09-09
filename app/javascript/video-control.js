@@ -19,3 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
   // 初期状態でvideo2を非表示にする
   video2.style.display = 'none';
 });
+n
